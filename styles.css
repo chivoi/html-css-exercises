@@ -1,0 +1,256 @@
+/* General */
+
+h1.header {
+	font-family: 'Bungee', sans-serif;
+	font-size: 40px;
+	margin: 30px 100px;
+}
+
+h1 {
+	font-family: 'Bungee', sans-serif;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Sen', sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+
+h3 {
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Sen', sans-serif;
+}
+
+ul {
+	font-family: 'Sen', sans-serif;
+	list-style-type: circle;
+}
+
+.box-colors {
+	border: 1px dotted black;
+	margin: 30px 100px;
+	padding: 30px 50px;
+	border-radius: 20px;
+}
+
+.box-fonts {
+	border: 1px dotted black;
+	margin: 30px 100px;
+	padding: 30px 50px;
+	border-radius: 20px;
+}
+
+.box-texts {
+	border: 1px dotted black;
+	margin: 30px 100px;
+	padding: 30px 50px;
+	border-radius: 20px;
+}
+
+/* Colors */
+
+.white {
+	text-align: center;
+	background-color: rgba(255,255,255,0);
+	color: rgb(0,0,0);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.light-cream {
+	text-align: center;
+	background-color: rgba(251,245,229,0.1);
+	color: rgb(0,0,0);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.gray {
+	text-align: center;
+	background-color: rgba(68,91,85,0.14);
+	color: rgb(0,0,0);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+.beige {
+	text-align: center;
+	background-color: rgba(251,245,229,1);
+	color: rgb(0,0,0);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.green {
+	text-align: center;
+	background-color: rgba(132,206,14,1);
+	color: rgba(0,0,0,1);
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.dark-green {
+	text-align: center;
+	background-color: rgba(27,67,3,0.85);
+	color: rgba(251,245,229,1);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.brown {
+	text-align: center;
+	background-color: rgba(66,47,14,1);
+	color: rgba(251,245,229,1);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	margin: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+/* Fonts */
+
+.sen {
+	font-family: 'Sen', sans-serif;
+	display: inline-block;
+	margin: 10px 100px 10px 10px;
+}
+
+.sen .light {
+	font-weight: 400;
+}
+
+.sen .normal {
+	font-weight: 700;
+}
+
+.sen .bold {
+	font-weight: 800;
+}
+
+.baloo {
+	font-family: 'Baloo Bhalina 2', sans-serif;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.baloo-light p {
+	font-family: 'Baloo Bhalina 2', sans-serif;
+	font-weight: 400;
+}
+
+.baloo-italic p {
+	font-family: 'Baloo Bhalina 2', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.baloo-bold p {
+	font-family: 'Baloo Bhalina 2', sans-serif;
+	font-weight: 800;
+}
+
+.bungee {
+	font-family: 'Bungee', sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+}
+
+.bungee p {
+	font-family: 'Bungee', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* External Fonts */
+
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sen Regular'), local('Sen-Regular'), url(https://fonts.gstatic.com/s/sen/v2/6xKjdSxYI9_3nPWNAGn5LA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Sen Bold'), local('Sen-Bold'), url(https://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__J9CYLUv0BnYASA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Sen ExtraBold'), local('Sen-ExtraBold'), url(https://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__O9OYLUv0BnYASA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baloo Bhaina 2 Regular'), local('BalooBhaina2-Regular'), url(https://fonts.gstatic.com/s/baloobhaina2/v1/qWczB6yyq4P9Adr3RtoX1q6ySiz8kjQKuYoJ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Baloo Bhaina 2';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Baloo Bhaina 2 ExtraBold'), local('BalooBhaina2-ExtraBold'), url(https://fonts.gstatic.com/s/baloobhaina2/v1/qWcwB6yyq4P9Adr3RtoX1q6ySiRbtCEnm4cjXO3E.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v5/N0bU2SZBIuF2PU_0DXR1C9zfmQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+
+
+
